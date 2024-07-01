@@ -1,0 +1,125 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: rgb(255, 251, 248);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.bar {
+  padding: 25px 0px; 
+  color: darkgoldenrod;
+  font-weight: bold;
+  font-family: 'Roboto';
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.result {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.player,
+.computer {
+  height: 200px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.player {
+  background-color: lightcyan;
+  border: 3px solid rgb(104, 255, 255);
+  border-radius: 7px;
+}
+
+.computer {
+  background-color: rgb(255, 215, 221);
+  border: 3px solid rgb(255, 102, 102);
+  border-radius: 7px;
+}
+
+.vs {
+  color: darkgoldenrod;
+  font-family: 'Roboto';
+  align-self: center;
+  height: 80px;
+  width: 80px;
+  background-color: rgb(255, 244, 227);
+  border: 3px solid darkgoldenrod;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+}
+
+img {
+  width: 80%;
+  height: 80%;
+}
+
+.choice {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.rock,
+.paper,
+.scissors {
+  width: 120px;
+  height: 120px;
+  border: 3px solid darkgoldenrod;
+  background-color: rgb(255, 244, 227);
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gameOver {
+  width: 300px;
+  align-self: center;
+  border: 3px solid darkgoldenrod;
+  background-color: rgb(255, 244, 227);
+  border-radius: 7px;
+  margin-top: 80px;
+  display: none;
+  flex-direction: column;
+  padding: 30px;
+  align-items: center;
+  gap: 20px;
+}
+
+.message {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: darkgoldenrod;
+}
+
+button {
+  padding: 5px 25px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: rgb(85, 85, 153);
+  border: 3px solid rgb(104, 255, 255);
+  background-color: lightcyan;
+  border-radius: 7px;
+}
+
+.hover {
+  background-color: lightcyan;
+  border-color: rgb(104, 255, 255);
+}
+
+
